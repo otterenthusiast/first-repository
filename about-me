@@ -1,0 +1,27 @@
+Hello! This is my first repository. In this file I want to demonstrate my current level at Python 3 programming.
+I only know the very basics, but that's it.
+
+First of all, I know how to solve simple arithmetic problems with code.
+For example, we need to know the exact time we spend in school. We know, that all lessons last 45 minutes, and all breaks last 15 minutes. With that information we can solve our problem:
+
+lesson_time = 45
+rest_time = 15
+n = 6
+total_time = lesson_time * n + (n - 1) * rest_time
+print(total_time)
+
+I can also make custom variables and use integer division or division with remainder. I can assign another data type to the input.
+For example: we have a chess board, which has n*m squares. We need to figuire out how many black squares are on the board.
+
+n = int(input())
+m = int(input())
+print((m * n + 1) // 2)
+
+I know the work of conditional statements if, elis and else; i know the work of logical operations and, or, not.
+For example, we need to know, if the the variable isn't the nubmer of the one of the spring months. March, April and May are 3, 4 and 5 respectively.
+
+n = int(input())
+if not(m == 1 or m == 2 or m == 12):
+    print("Not spring")
+    
+That is all I know for now. Thank you for reading.
